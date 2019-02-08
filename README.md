@@ -19,9 +19,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://i.imgur.com/1Idoq8F.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+With the first commit of the application I noticed that the last movie did not scale(coudn't see the last movie in the list properly) even for the iphone screen I used to design the application. The mentors were quick to reply and help me find a solution.
