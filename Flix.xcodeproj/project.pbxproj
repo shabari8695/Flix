@@ -17,6 +17,7 @@
 		52925EE6220D502300366044 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52925EE5220D502300366044 /* MovieDetailViewController.swift */; };
 		52925EE8220D5F7800366044 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52925EE7220D5F7800366044 /* MovieGridViewController.swift */; };
 		52925EEA220D647700366044 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52925EE9220D647700366044 /* MovieGridCell.swift */; };
+		52925EEC220D797600366044 /* TrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52925EEB220D797600366044 /* TrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		52925EE5220D502300366044 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
 		52925EE7220D5F7800366044 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
 		52925EE9220D647700366044 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
+		52925EEB220D797600366044 /* TrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerViewController.swift; sourceTree = "<group>"; };
 		829BDF6B18BBF0FD6FEBEB53 /* Pods_Flix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				52385658220D2625003EB7AF /* MovieViewController.swift */,
 				52925EE7220D5F7800366044 /* MovieGridViewController.swift */,
 				5238564A220D2366003EB7AF /* Main.storyboard */,
+				52925EEB220D797600366044 /* TrailerViewController.swift */,
 				52925EE9220D647700366044 /* MovieGridCell.swift */,
 				52925EE5220D502300366044 /* MovieDetailViewController.swift */,
 				5238565A220D2DD6003EB7AF /* MovieCell.swift */,
@@ -224,6 +227,7 @@
 			files = (
 				52925EE8220D5F7800366044 /* MovieGridViewController.swift in Sources */,
 				52925EE6220D502300366044 /* MovieDetailViewController.swift in Sources */,
+				52925EEC220D797600366044 /* TrailerViewController.swift in Sources */,
 				52385647220D2366003EB7AF /* AppDelegate.swift in Sources */,
 				52385659220D2625003EB7AF /* MovieViewController.swift in Sources */,
 				52925EEA220D647700366044 /* MovieGridCell.swift in Sources */,

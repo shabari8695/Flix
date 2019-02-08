@@ -23,7 +23,7 @@ class MovieDetailViewController: UIViewController {
         
         titleLabel.text = movie["title"] as? String
         titleLabel.sizeToFit()
-        //releaseDateLabel.text = movie["release_date"] as? String
+        //releaseDateLabel.text = movie["release_date"] as String
         //releaseDateLabel.sizeToFit()
         synopsisLabel.text = movie["overview"] as? String
         synopsisLabel.sizeToFit()
@@ -40,14 +40,18 @@ class MovieDetailViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        let modalViewController = segue.destination as! TrailerViewController
+        
+        modalViewController.movie = self.movie
+        
         // Pass the selected object to the new view controller.
     }
-    */
+    
 
 }
