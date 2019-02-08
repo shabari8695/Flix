@@ -19,6 +19,7 @@ class MovieViewController: UIViewController,UITableViewDataSource,UITableViewDel
 
         tableView.dataSource = self
         tableView.delegate = self
+        tableView.contentInset = UIEdgeInsets(top: 0,left: 0,bottom: 100,right: 0)
         
         // Do any additional setup after loading the view.
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed")!
